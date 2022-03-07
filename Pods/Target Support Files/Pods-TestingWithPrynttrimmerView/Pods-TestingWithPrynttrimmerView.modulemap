@@ -1,0 +1,6 @@
+framework module Pods_TestingWithPrynttrimmerView {
+  umbrella header "Pods-TestingWithPrynttrimmerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

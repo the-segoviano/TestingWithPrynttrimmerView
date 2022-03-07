@@ -13,9 +13,12 @@
 		514761D727D6829A00E67233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 514761D527D6829A00E67233 /* Main.storyboard */; };
 		514761D927D6829D00E67233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 514761D827D6829D00E67233 /* Assets.xcassets */; };
 		514761DC27D6829D00E67233 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 514761DA27D6829D00E67233 /* LaunchScreen.storyboard */; };
+		ECA3568C40481629569FFC5D /* Pods_TestingWithPrynttrimmerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0044D799FB322044862795 /* Pods_TestingWithPrynttrimmerView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F0044D799FB322044862795 /* Pods_TestingWithPrynttrimmerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestingWithPrynttrimmerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F29D1EEA1ABBDF2E17F4463 /* Pods-TestingWithPrynttrimmerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingWithPrynttrimmerView.debug.xcconfig"; path = "Target Support Files/Pods-TestingWithPrynttrimmerView/Pods-TestingWithPrynttrimmerView.debug.xcconfig"; sourceTree = "<group>"; };
 		514761CC27D6829A00E67233 /* TestingWithPrynttrimmerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingWithPrynttrimmerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		514761CF27D6829A00E67233 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		514761D127D6829A00E67233 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		514761D827D6829D00E67233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		514761DB27D6829D00E67233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		514761DD27D6829D00E67233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F59F18A290F0F0B0D359BAA /* Pods-TestingWithPrynttrimmerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingWithPrynttrimmerView.release.xcconfig"; path = "Target Support Files/Pods-TestingWithPrynttrimmerView/Pods-TestingWithPrynttrimmerView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECA3568C40481629569FFC5D /* Pods_TestingWithPrynttrimmerView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1ACAC4551D1C6AA59B4AF41C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F0044D799FB322044862795 /* Pods_TestingWithPrynttrimmerView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		514761C327D6829A00E67233 = {
 			isa = PBXGroup;
 			children = (
 				514761CE27D6829A00E67233 /* TestingWithPrynttrimmerView */,
 				514761CD27D6829A00E67233 /* Products */,
+				6CCE037A8282A5842AC1C6D2 /* Pods */,
+				1ACAC4551D1C6AA59B4AF41C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +82,16 @@
 			path = TestingWithPrynttrimmerView;
 			sourceTree = "<group>";
 		};
+		6CCE037A8282A5842AC1C6D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F29D1EEA1ABBDF2E17F4463 /* Pods-TestingWithPrynttrimmerView.debug.xcconfig */,
+				7F59F18A290F0F0B0D359BAA /* Pods-TestingWithPrynttrimmerView.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 514761E027D6829D00E67233 /* Build configuration list for PBXNativeTarget "TestingWithPrynttrimmerView" */;
 			buildPhases = (
+				C566A16267E5FAC76044BF98 /* [CP] Check Pods Manifest.lock */,
 				514761C827D6829A00E67233 /* Sources */,
 				514761C927D6829A00E67233 /* Frameworks */,
 				514761CA27D6829A00E67233 /* Resources */,
+				0FF609EF5A7D2DA01186A3C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FF609EF5A7D2DA01186A3C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestingWithPrynttrimmerView/Pods-TestingWithPrynttrimmerView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestingWithPrynttrimmerView/Pods-TestingWithPrynttrimmerView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestingWithPrynttrimmerView/Pods-TestingWithPrynttrimmerView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C566A16267E5FAC76044BF98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestingWithPrynttrimmerView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		514761C827D6829A00E67233 /* Sources */ = {
@@ -284,6 +353,7 @@
 		};
 		514761E127D6829D00E67233 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F29D1EEA1ABBDF2E17F4463 /* Pods-TestingWithPrynttrimmerView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +381,7 @@
 		};
 		514761E227D6829D00E67233 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F59F18A290F0F0B0D359BAA /* Pods-TestingWithPrynttrimmerView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

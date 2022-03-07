@@ -21,5 +21,16 @@
 			</array>
 		</dict>
 	</dict>
+    
+    <!-- Limited Photos -->
+    <key>PHPhotoLibraryPreventAutomaticLimitedAccessAlert</key>
+    <true/>
+    <!-- For Camera -->
+    <key>NSCameraUsageDescription</key>
+    <string>$(PRODUCT_NAME) You can take photos to document your job.</string>
+    <!-- For Photo Library -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>$(PRODUCT_NAME) You can select photos to attach to reports.</string>
+    
 </dict>
 </plist>

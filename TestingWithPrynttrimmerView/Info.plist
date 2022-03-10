@@ -32,5 +32,12 @@
     <key>NSPhotoLibraryUsageDescription</key>
     <string>$(PRODUCT_NAME) You can select photos to attach to reports.</string>
     
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <!--Include to allow all connections-->
+      <key>NSAllowsArbitraryLoads</key>
+          <true/>
+    </dict>
+    
 </dict>
 </plist>
